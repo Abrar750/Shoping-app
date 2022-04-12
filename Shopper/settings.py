@@ -84,12 +84,12 @@ WSGI_APPLICATION = 'Shopper.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'projects',
-        'USER':'root',
-        'PASSWORD':'',
-        'PORT':'3306',
-        'HOST':'localhost'
+        'ENGINE': 'django.db.backends.dbv68sn3oiet7',
+        'NAME': 'wyaodobrmvydnq',
+        'USER':'wyaodobrmvydnq',
+        'PASSWORD':'0c2298e7e18cc66da3ed7bbddaf06ff6136cb7e38b36b69c0e236fcd42c6b601',
+        'PORT':'5432',
+        'HOST':'ec2-52-54-212-232.compute-1.amazonaws.com'
     }
 }
 
