@@ -31,7 +31,7 @@ SECRET_KEY = 'django-insecure-^ofz8nygaw#q)_)h801uc@+haxu+=oc%k92o-8!gpao^c2bu9z
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'projectdbmysql.herokuapp.com'
+    'storeshoping.herokuapp.com',
 ]
 
 
