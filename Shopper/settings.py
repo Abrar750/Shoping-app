@@ -84,8 +84,12 @@ WSGI_APPLICATION = 'Shopper.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'ddfnj5mkr2enba',
+        'USER':'hwzudldhesvwxp',
+        'PASSWORD':'c6dc1841ad18f35e73f1c0c86400e411654f2a7d47143938c78d20ee8840c2ea',
+        'PORT':'5432',
+        'HOST':'ec2-34-197-84-74.compute-1.amazonaws.com'
         
     }
 }
